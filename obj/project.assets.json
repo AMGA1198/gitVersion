@@ -1,0 +1,231 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GitInfo/2.0.34": {
+        "type": "package",
+        "build": {
+          "build/GitInfo.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/GitInfo.targets": {}
+        }
+      },
+      "LibGit2Sharp/0.26.2": {
+        "type": "package",
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "[2.0.306]"
+        },
+        "compile": {
+          "lib/netstandard2.0/LibGit2Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LibGit2Sharp.dll": {}
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/2.0.312": {
+        "type": "package",
+        "build": {
+          "build/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libgit2-6777db8.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libgit2-6777db8.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libgit2-6777db8.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libgit2-6777db8.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libgit2-6777db8.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/git2-6777db8.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/git2-6777db8.pdb": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/git2-6777db8.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/git2-6777db8.pdb": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GitInfo/2.0.34": {
+      "sha512": "/Jn0eIpmmUlNeblGw4GV+z8QSRHaas5nMu9x1AyQOAo8mip6qVy3BgujBCF0QdsrNzPspeV0jol4EGPQj0mqNw==",
+      "type": "package",
+      "path": "gitinfo/2.0.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/GitInfo.cache.pp",
+        "build/GitInfo.cs.pp",
+        "build/GitInfo.fs.pp",
+        "build/GitInfo.targets",
+        "build/GitInfo.vb.pp",
+        "build/wslpath.cmd",
+        "build/wslrun.cmd",
+        "buildMultiTargeting/GitInfo.targets",
+        "gitinfo.2.0.34.nupkg.sha512",
+        "gitinfo.nuspec",
+        "readme.txt"
+      ]
+    },
+    "LibGit2Sharp/0.26.2": {
+      "sha512": "qHLhuI8VEtMf7jiurT/Ypquh37S6ngllCx+aq9uqOY2evok7Fb2AzhJgvNctsXOzHaJwveBs+30sPQJFn/pISg==",
+      "type": "package",
+      "path": "libgit2sharp/0.26.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "App_Readme/CHANGES.md",
+        "App_Readme/LICENSE.md",
+        "App_Readme/README.md",
+        "lib/net46/LibGit2Sharp.dll",
+        "lib/net46/LibGit2Sharp.pdb",
+        "lib/net46/LibGit2Sharp.xml",
+        "lib/netstandard2.0/LibGit2Sharp.dll",
+        "lib/netstandard2.0/LibGit2Sharp.pdb",
+        "lib/netstandard2.0/LibGit2Sharp.xml",
+        "libgit2sharp.0.26.2.nupkg.sha512",
+        "libgit2sharp.nuspec"
+      ]
+    },
+    "LibGit2Sharp.NativeBinaries/2.0.312": {
+      "sha512": "sL4OLOblkrLgDW+zE0OL4h9DYVCyZTlA4CppUCgqU8Ud/+Ah+Wxc3EtGpGjmH6xjDMRRpmHUFgAgzj+hzZTHZA==",
+      "type": "package",
+      "path": "libgit2sharp.nativebinaries/2.0.312",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LibGit2Sharp.NativeBinaries.props",
+        "build/net46/LibGit2Sharp.NativeBinaries.props",
+        "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props",
+        "libgit2/LibGit2Sharp.dll.config",
+        "libgit2/libgit2.license.txt",
+        "libgit2/libgit2_hash.txt",
+        "libgit2sharp.nativebinaries.2.0.312.nupkg.sha512",
+        "libgit2sharp.nativebinaries.nuspec",
+        "runtimes/linux-arm/native/libgit2-6777db8.so",
+        "runtimes/linux-arm64/native/libgit2-6777db8.so",
+        "runtimes/linux-musl-x64/native/libgit2-6777db8.so",
+        "runtimes/linux-x64/native/libgit2-6777db8.so",
+        "runtimes/osx/native/libgit2-6777db8.dylib",
+        "runtimes/win-x64/native/git2-6777db8.dll",
+        "runtimes/win-x64/native/git2-6777db8.pdb",
+        "runtimes/win-x86/native/git2-6777db8.dll",
+        "runtimes/win-x86/native/git2-6777db8.pdb"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "GitInfo >= 2.0.34",
+      "LibGit2Sharp >= 0.26.2",
+      "LibGit2Sharp.NativeBinaries >= 2.0.312"
+    ]
+  },
+  "packageFolders": {
+    "/home/naughtycat/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/naughtycat/Desktop/gitVersion2/gitVersion2.csproj",
+      "projectName": "gitVersion2",
+      "projectPath": "/home/naughtycat/Desktop/gitVersion2/gitVersion2.csproj",
+      "packagesPath": "/home/naughtycat/.nuget/packages/",
+      "outputPath": "/home/naughtycat/Desktop/gitVersion2/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/naughtycat/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "GitInfo": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.0.34, )"
+          },
+          "LibGit2Sharp": {
+            "target": "Package",
+            "version": "[0.26.2, )"
+          },
+          "LibGit2Sharp.NativeBinaries": {
+            "target": "Package",
+            "version": "[2.0.312, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: LibGit2Sharp 0.26.2 requires LibGit2Sharp.NativeBinaries (= 2.0.306) but version LibGit2Sharp.NativeBinaries 2.0.312 was resolved.",
+      "libraryId": "LibGit2Sharp.NativeBinaries",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

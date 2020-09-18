@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "lk+ofZbx3+SLmCC7ImrMntR6OS94ZY8OWBTnPyCL1qJ68Bh/yHqikjrH3fKc2X1Ew7d8z+tD64HQrvMP1hOOZA==",
+  "success": true,
+  "projectFilePath": "/home/naughtycat/Desktop/gitVersion2/gitVersion2.csproj",
+  "expectedPackageFiles": [
+    "/home/naughtycat/.nuget/packages/gitinfo/2.0.34/gitinfo.2.0.34.nupkg.sha512",
+    "/home/naughtycat/.nuget/packages/libgit2sharp/0.26.2/libgit2sharp.0.26.2.nupkg.sha512",
+    "/home/naughtycat/.nuget/packages/libgit2sharp.nativebinaries/2.0.312/libgit2sharp.nativebinaries.2.0.312.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: LibGit2Sharp 0.26.2 requires LibGit2Sharp.NativeBinaries (= 2.0.306) but version LibGit2Sharp.NativeBinaries 2.0.312 was resolved.",
+      "libraryId": "LibGit2Sharp.NativeBinaries",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
