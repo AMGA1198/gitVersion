@@ -1,5 +1,6 @@
 ﻿using System;
 using LibGit2Sharp;
+//using GitInfo;
 namespace gitVersion2
 {
     class Program
@@ -25,6 +26,11 @@ namespace gitVersion2
             
             Console.WriteLine("Hello World!");
             Console.WriteLine(commit);
+            //con gitInfo
+            //Console.WriteLine('cOMMIT': This.Assembly.Commit)
+
+            //Inge estaba probando tambien con GitInfo pero me da error la libreria y no encuentro mucho al respecto
+            //dotnet add package GitInfo --version 2.0.34
         }
     }
 }
